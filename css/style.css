@@ -1,0 +1,146 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: arial;
+}
+.header {
+    height: 70px;
+    background-color: #121b2a;
+}
+.h_wrapper {
+    /*background-color: white;*/
+    height: 70px;
+    width: 80%;
+    margin: 0px auto;
+}
+.logo_part {
+    /* background-color: white; */
+    width: 40%;
+    float: left;
+    padding: 8px 0px;
+}
+.logo_image {
+    height: 50px;
+    cursor: pointer;
+}
+.nav_part {
+    width: 60%;
+    height: 70px;
+    /* background-color: yellow; */
+    float: right;
+}
+.login_area {
+    height: 30px;
+    background-color: red;
+    width: 50%;
+    float: right;
+    cursor: pointer;
+}
+.client_login_area {
+    height: 30px;
+    background-color: white;
+    width: 50%;
+    float: left;
+}
+.login_icon1 {
+    font-size: 12px;
+    color: black;
+    float: left;
+    padding: 8px;
+    margin: 0px 0px 0px 5px;
+}
+.client_login {
+    font-size: 12px;
+    color: black;
+    float: left;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    padding: 9px 0px 0px 2px;
+}
+.employee_login_area {
+    height: 30px;
+    background-color: #2196f3;
+    width: 50%;
+    float: right;
+}
+.client_log_content {
+    height: 30px;
+    /* background-color: red; */
+    width: 100%;
+}
+.login_icon2 {
+    font-size: 12px;
+    color: white;
+    float: left;
+    padding: 8px;
+}
+.employee_login {
+    font-size: 12px;
+    color: white;
+    float: left;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    padding: 9px 0px 0px 2px;
+}
+.navigation_area {
+    /*background-color: yellow;*/
+    height: 40px;
+    clear: both;
+}
+.menu {
+    /* border: 1px solid black; */
+    overflow: hidden;
+    height: 40px;
+}
+.menu ul {
+    float: right;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+.menu ul li a {
+    text-decoration: none;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    display: inline-block;
+}
+.menu ul li:last child a {
+	padding-right: 0px;
+}
+
+/*Banner css Start Here*/
+.banner_area {
+    height: 500px;
+    clear: both;
+    background: url("../image/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_area {}
+.wrapper1 {
+    height: 227px;
+    width: 85%;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 227px 0px 0px 0px;
+}
+.banner_area h1 {}
+.banner_area h2 {}
+.banner_area p {}
+.wrapper1 p {
+	color: white;
+}
+.banner_button {
+    width: 11%;
+    background-color: #2196f3;
+    border-radius: 11px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*Banner css end Here*/
